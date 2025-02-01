@@ -22,8 +22,8 @@ public class PositivePayService {
 
         cleanList = generalTool.readAndCleanFile(filePath);
 
-        fileToUploadName = generalTool.createFileName("PositivePay-Upload-",cleanList); //Add file path
-        fileToSaveSummary = generalTool.createFileName("PositivePay-Summary-",cleanList); //Add file path
+        fileToUploadName = generalTool.createFileName("PositivePay-Upload-",cleanList);
+        fileToSaveSummary = generalTool.createFileName("PositivePay-Summary-",cleanList);
 
         cleanListSummary = generalTool.createSummaryTable(cleanList);
         cleanListSummaryTotal = generalTool.summaryTotal(cleanList);
@@ -36,21 +36,4 @@ public class PositivePayService {
         outcome[2] = "File Created Successfully!";
         return outcome;
     }
-
-//    public String getFilePath() {
-//        return filePath;
-//    }
-//
-//    public void setFilePath(String filePath) {
-//        this.filePath = filePath;
-//    }
-//
-//    public String getFolderPath() {
-//        return folderPath;
-//    }
-//
-//    public void setFolderPath(String folderPath) {
-//        this.folderPath = folderPath;
-//    }
-
 }
