@@ -2,10 +2,6 @@
 
 Positive Pay Converter eliminates the hassle of manually formatting check data for bank submission. Seamlessly convert data from your accounting software into the required format for Positive Pay, ensuring accurate and efficient check verification.
 
-
-What is Positive pay? 
-Positive pay is a service where an employer sends an electronic list of all paychecks to a bank so that the bank can confirm a deposited paycheck's authenticity. Multiple aspects of a check must align with the positive pay file for the check to be approved, such as the check number, amount, and account number.
-
 How it Works:
 1.	Export: Export your check register data from your accounting software as a CSV file.
 2.	Convert: Use the Positive Pay Converter to transform the CSV file into the bank's required upload format.
