@@ -23,7 +23,7 @@ User will export information from the system and place it in this format
 User will use the browse button to choose what file to import and what folder path they want to save the new file at and then press run.
 
 <img width="468" alt="image" src="https://github.com/user-attachments/assets/2137ec24-d417-4d92-9b0b-791d1e72573f" />
-
+![img.png](img.png)
 
 Program will create and export two text files. One for the user to uploaded to the bank and another one for the user to see the total amount by bank of checks going out for the uploaded CSV file.
  
